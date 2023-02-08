@@ -1,0 +1,7 @@
+Issue ID,Title,Description, Symptom,Root Cause,Triggering Value,Updating times ,Option Dependency,Issue-URL
+2604,Changing icap_enable setting in squid.conf fails to take effect after calling squid -k reconfigure,updating icap_enable setting in squid.conf fails to take effect,Functional Error,Miss to propagate to other variables,Valid,one time,no dependency,https://bugs.squid-cache.org/show_bug.cgi?id=2604
+579,useragent log disable,comment out useragent_log in config file，didn't take effect,Functional Error,Miss to propagate to other variables,Valid,one time,no dependency,https://bugs.squid-cache.org/show_bug.cgi?id=579
+1308,squid -k reconfigure related corruption if the type of a cache_dir is changed,after updating cache_dir，the aufs's swap.state is corrupted,Functional Error,Fail to consider handling updated values,Valid,one time,no dependency,https://bugs.squid-cache.org/show_bug.cgi?id=1308
+1546,squid forgets delay_pool setting,When I reloaded squid (with '-k reconfigure') it forgets my delay_pool settings.,Functional Error,Improperly handle updated values,Valid,one time,no dependency,https://bugs.squid-cache.org/show_bug.cgi?id=1546
+1800,one bug when let squid reconfigure,adding acl webserver makes system crash,Crash,Improperly handle updated values,Valid,one time,no dependency,https://bugs.squid-cache.org/show_bug.cgi?id=1800
+1691,SEGV in peerCountMcastPeersDone after reconfigure,reloading config file makes squid segv,Crash,Improperly handle updated values,Valid,one time,no dependency,https://bugs.squid-cache.org/show_bug.cgi?id=1691

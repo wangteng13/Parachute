@@ -1,0 +1,15 @@
+Software,New Bug ID,Affected Versions,Status,Type,Internal Effect Detection,External Effect Detection,Staccato
+Mysql,105933,v5.7-latest,Confirmed,R2-2,no,yes,no
+Mysql,105957,v5.7-latest,Confirmed,R2-2,no,yes,no
+Mysql,105964,v5.7-latest,Confirmed,R2-2,no,yes,no
+Mysql,105978,v5.7-latest,Confirmed,R1-3,yes,yes,yes
+Mysql,106675,v5.7,Confirmed,R2-2,no,yes,no
+Mysql,106676,v5.7,Confirmed,R2-2,no,yes,no
+Mysql,106684,v5.7,Confirmed,R2-1,no,yes,no
+Redis,10119,v6.2-v7.0,Fixed,R1-2,yes,no,no
+Squid,5224,v5.0-latest,Pending,R1-3,yes,no,yes
+Squid,5225,v5.0-latest,Pending,R1-3,yes,no,yes
+Postgresql,17538,v14.2-latest,Confirmed,R1-3,yes,no,yes
+Mariadb,29076,v10.3-latest,Fixing,R2-2,no,yes,no
+Mariadb,29077,v10.3-latest,Fixing,R2-2,no,yes,no
+
