@@ -2,11 +2,13 @@
 
 Parachute is a tool for detecting on-the-fly configuration bugs (**OCBugs**) in runtime configurable systems. Parachute first generates test cases of on-the-fly configuration updating for the target options. And then leverages metamorphic testing to detect OCBugs with two oracles (Internal Effects and External Effects).
 
+
 The repository contains all the artifacts (including all the code and datasets) of the paper
 
-- [Understanding and Detecting On-the-Fly Configuration Bugs](https://github.com/ocbug/Parachute/paper/icse23-Parachute.pdf)  
+- [Understanding and Detecting On-the-Fly Configuration Bugs](https://raw.githubusercontent.com/wangteng13/Parachute/main/paper/icse23-Parachute.pdf)  
 Teng Wang, Zhouyang Jia, Shanshan Li, Si Zheng, Yue Yu, Erci Xu, Shaoliang Peng, Xiangke Liao.  
-Proceedings of the 45th International Conference on Software Engineering (ICSE) May 2023. (**Distinguished Paper Award**)
+Proceedings of the 45th International Conference on Software Engineering (ICSE) May 2023.   
+(**Distinguished Paper Award**)
 
 ---
 
