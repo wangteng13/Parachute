@@ -1,16 +1,22 @@
-# Understanding and Detecting On-the-Fly Configuration Bugs
+# Parachute: Detecting On-the-Fly Configuration Bugs
 
-The repository includes the following artifacts:
+Parachute is a tool for detecting on-the-fly configuration bugs (**OCBugs**) in runtime configurable systems. Parachute first generates test cases of on-the-fly configuration updating for the target options. And then leverages metamorphic testing to detect OCBugs with two oracles (Internal Effects and External Effects).
 
-```OCBug dataset``` : The information of 75 OCBugs studied in this paper. The bugs are from 5 open-source projects (MySQL, Redis, PostgreSQL, Nginx and Squid). All the data sheets are in the format of CSV, with titles/labels as the first rows.
+The repository contains all the artifacts (including all the code and datasets) of the paper
 
-```Code``` : The source code of Parachute to detect OCBugs.
+- [Understanding and Detecting On-the-Fly Configuration Bugs](https://github.com/ocbug/Parachute/paper/icse23-Parachute.pdf)  
+Teng Wang, Zhouyang Jia, Shanshan Li, Si Zheng, Yue Yu, Erci Xu, Shaoliang Peng, Xiangke Liao.  
+Proceedings of the 45th International Conference on Software Engineering (ICSE) May 2023. (**Distinguished Paper Award**)
 
-```Evaluation``` : The evaluation results of Parachute.
+---
 
 ## Public Dataset
 
 The OCBug data set can be accessed by [HERE](https://github.com/ocbug/Parachute/tree/main/dataset)
+
+The information of 75 OCBugs studied in this paper. The bugs are from 5 open-source projects (MySQL, Redis, PostgreSQL, Nginx and Squid). All the data sheets are in the format of CSV, with titles/labels as the first rows.
+
+---
 
 ## How to use Parachute:
 
